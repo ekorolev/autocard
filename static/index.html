@@ -2,13 +2,20 @@
 <html>
 <head>
 	<title>Генератор карточки бойца</title>
+
+	<link rel='stylesheet' type='text/css' href='/jslibs/style.jrac.css'>
+
+	<script type='text/javascript' src='/jslibs/jquery.min.js'></script>
+	<script type='text/javascript' src='/jslibs/jquery.jrac.js'></script>
 </head>
 <body>
 	Сделай карточку бойца сам!<br>
 
-	<form action='/upload' method=post enctype="multipart/form-data">
-		<input type=file name=photo>
-		<input type=submit>
+	<form id='uploadFileForm' action='/upload' method='post' enctype='multipart/form-data'>
+		<input type='file' name='photo'>
+		<input type='submit' id='uploadFileButton'>
 	</form>
+
+	<script type='text/javascript' src='/script.js'></script>
 </body>
 </html>
