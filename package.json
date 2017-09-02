@@ -4,6 +4,7 @@
   "description": "Service for autocreate card",
   "main": "server/app.js",
   "scripts": {
+    "start": "node ./server/app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +21,6 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
     "express-fileupload": "^0.2.0",
-    "image-editor": "^0.2.0"
+    "imagemagick": "^0.1.3"
   }
 }
